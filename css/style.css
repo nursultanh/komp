@@ -24,6 +24,7 @@ body {
   background: transparent;
   justify-content: space-between;
   align-items: center;
+  z-index: 1000;
   position: fixed;
 }
 #header .header--logo__nav {
@@ -325,6 +326,15 @@ body {
   color: #FFFFFF;
   font-size: 26px;
 }
+#loader .loader--logo__glav p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+  opacity: 0.4;
+  font-size: 8px;
+}
 #loader .loader--logo__glav--line {
   width: 324px;
   height: 80px;
@@ -352,6 +362,10 @@ body {
   background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
   width: 220px;
   height: 10px;
+}
+#loader .loader--logo__glav__sd {
+  display: flex;
+  flex-direction: column;
 }
 #loader .loader--p {
   display: flex;
@@ -632,7 +646,8 @@ body {
 }
 #footer .footer--input__hov input {
   width: 287px;
-  height: 53px;
+  height: 33px;
+  border-radius: 30px;
   border: 1px solid #B5B5B5;
   background: #FFFFFF;
   opacity: 0.25;
@@ -643,13 +658,14 @@ body {
 }
 #footer .footer--input__hov button {
   position: relative;
+  right: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 54px;
-  height: 55px;
-  background: #FE773B;
-  border-radius: 2px;
+  width: 84px;
+  height: 35px;
+  background: #7C6AFA;
+  border-radius: 30px;
   transition: 0.4s;
 }
 #footer .footer--input__hov button:hover {

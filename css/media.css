@@ -3,27 +3,32 @@
     width: 90%;
   }
 }
-@media (max-width: 420px) {
-  #zakas .zakas--logo__zarabotka--line {
-    width: 279px;
+@media (max-width: 660px) {
+  #header .header--logo {
+    background-filter: blur();
   }
-  #zakas .zakas--logo {
+}
+@media (max-width: 420px) {
+  #zakas--logo {
     height: 277px;
   }
-  #hero .hero--logo h1 {
+  #zakas--logo__zarabotka--line {
+    width: 279px;
+  }
+  #hero--logo h1 {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 40px;
   }
-  #chem .chem--logo img {
+  #chem--logo img {
     width: 264px;
   }
 }
 @media (max-width: 320px) {
-  #chem .chem--logo img {
+  #chem--logo img {
     width: 220px;
   }
-  #chem .chem--text h1 {
+  #chem--text h1 {
     font-size: 44px;
   }
 }
