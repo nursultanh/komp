@@ -1,0 +1,673 @@
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: black;
+}
+
+#header .header--logo {
+  width: 80%;
+  height: 92px;
+  display: flex;
+  flex-wrap: wrap;
+  background: transparent;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+}
+#header .header--logo__nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+#header .header--logo__nav a {
+  padding: 0 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #FFFFFF;
+  transition: 0.4s;
+}
+#header .header--logo__nav a:hover {
+  scale: 1.1;
+  color: #7C6AFA;
+  text-decoration-line: underline;
+}
+#header .header--logo__btn button {
+  padding: 10px 30px;
+  gap: 10px;
+  background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+  border-radius: 50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: white;
+  transition: 0.4s;
+}
+#header .header--logo__btn button:hover {
+  scale: 1.1;
+  background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+  color: black;
+}
+
+#hero {
+  background: url("../img/main-screen__bgc.png") no-repeat center/cover;
+  min-height: 100vh;
+}
+#hero .hero--logo h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 54px;
+  color: #FFFFFF;
+  padding-top: 300px;
+}
+#hero .hero--block {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+#hero .hero--block__blocks {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 102px;
+  height: 112px;
+  background: #121212;
+  transition: 0.4s;
+  margin: 20px 20px;
+}
+#hero .hero--block__blocks h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 54px;
+  color: #FFFFFF;
+  font-size: 36px;
+}
+#hero .hero--block__blocks h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+  opacity: 0.4;
+}
+
+#zakas .zakas--logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 130px;
+  background: #121212;
+}
+#zakas .zakas--logo__btn button {
+  padding: 10px 30px;
+  gap: 10px;
+  background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+  border-radius: 50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: white;
+  transition: 0.4s;
+}
+#zakas .zakas--logo__btn button:hover {
+  scale: 1.1;
+  background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+  color: black;
+}
+#zakas .zakas--logo__peopl--1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#zakas .zakas--logo__peopl--1 h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 54px;
+  color: #FFFFFF;
+  font-size: 16px;
+}
+#zakas .zakas--logo__peopl--1 h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+  opacity: 0.4;
+  font-size: 16px;
+}
+#zakas .zakas--logo__peopl--2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#zakas .zakas--logo__peopl--2 h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 54px;
+  color: #FFFFFF;
+  font-size: 16px;
+}
+#zakas .zakas--logo__peopl--2 h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+  opacity: 0.4;
+  font-size: 16px;
+}
+#zakas .zakas--logo__zarabotka--rubl h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+  opacity: 0.4;
+}
+#zakas .zakas--logo__zarabotka--rubl h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 54px;
+  color: #FFFFFF;
+  font-size: 16px;
+}
+#zakas .zakas--logo__zarabotka--line {
+  width: 514px;
+  height: 6px;
+  background: #FFFFFF;
+  background: linear-gradient(94.78deg, #DF5950 55%, #ffffff 30%);
+  transition: 0.5s;
+}
+#zakas .zakas--logo__zarabotka--line:hover {
+  scale: 1.1;
+}
+#zakas .zakas--logo__zarabotka--sb {
+  display: flex;
+  justify-content: space-between;
+}
+#zakas .zakas--logo__zarabotka--sb h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+  opacity: 0.4;
+}
+#zakas .zakas--logo__zarabotka--sb h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+  opacity: 0.4;
+}
+
+#chem {
+  padding-top: 150px;
+}
+#chem .chem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#chem .chem--logo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  justify-content: center;
+  width: 356px;
+  height: 329px;
+  border: 30px solid rgb(200, 154, 252);
+  border: 30px solid rgb(124, 106, 250);
+}
+#chem .chem--logo img {
+  width: 320px;
+  height: 340px;
+  position: relative;
+  margin-top: 40px;
+}
+#chem .chem--text h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 54px;
+  color: #FFFFFF;
+  font-size: 48px;
+}
+#chem .chem--text p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+  opacity: 0.4;
+  padding: 35px 0;
+}
+
+#loader {
+  padding-top: 130px;
+}
+#loader .loader--style3 {
+  display: flex;
+  flex-wrap: wrap;
+}
+#loader .loader--style3 .loader {
+  margin: 0 0 2em;
+  height: 100px;
+  width: 20%;
+  text-align: center;
+  padding: 1em;
+  margin: 0 auto 1em;
+  display: inline-block;
+  vertical-align: top;
+}
+#loader .loader--style3 svg path,
+#loader .loader--style3 svg rect {
+  fill: #DF5950;
+}
+#loader .loader--style3 h1 {
+  padding-left: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 54px;
+  color: #FFFFFF;
+  font-size: 48px;
+}
+#loader .loader p {
+  padding: 45px 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+  opacity: 0.4;
+}
+#loader .loader--logo {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  transition: 0.4s;
+}
+#loader .loader--logo:hover {
+  scale: 1.1;
+  color: #C89AFC;
+}
+#loader .loader--logo__glav {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#loader .loader--logo__glav h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 54px;
+  color: #FFFFFF;
+  font-size: 26px;
+}
+#loader .loader--logo__glav--line {
+  width: 324px;
+  height: 80px;
+  background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+  width: 220px;
+  height: 50px;
+}
+#loader .loader--logo__glav--lines {
+  width: 324px;
+  height: 80px;
+  background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+  width: 220px;
+  height: 30px;
+}
+#loader .loader--logo__glav--lined {
+  width: 324px;
+  height: 80px;
+  background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+  width: 220px;
+  height: 20px;
+}
+#loader .loader--logo__glav--linef {
+  width: 324px;
+  height: 80px;
+  background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+  width: 220px;
+  height: 10px;
+}
+#loader .loader--p {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+#loader .loader--p p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+  opacity: 0.4;
+  font-size: 10px;
+}
+
+#proffesi {
+  padding-top: 100px;
+}
+#proffesi h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 54px;
+  color: #FFFFFF;
+  font-size: 48px;
+  text-align: center;
+}
+#proffesi .proffesi {
+  padding-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#proffesi .proffesi--bloc h2 {
+  text-align: center;
+  padding: 30px 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 54px;
+  color: #FFFFFF;
+  font-size: 24px;
+}
+#proffesi .proffesi--bloc p {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+  opacity: 0.4;
+}
+
+#parter {
+  padding-top: 100px;
+}
+#parter .parter--style3 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+#parter .parter--style3 .loader {
+  margin: 0 0 2em;
+  height: 100px;
+  width: 20%;
+  text-align: center;
+  padding: 1em;
+  margin: 0 auto 1em;
+  display: inline-block;
+  vertical-align: top;
+}
+#parter .parter--style3 svg path,
+#parter .parter--style3 svg rect {
+  fill: #DF5950;
+}
+#parter .parter--style3 h1 {
+  padding-left: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 54px;
+  color: #FFFFFF;
+  font-size: 36px;
+}
+#parter .parter--logo {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 50px;
+}
+#parter .parter--logo__glav img {
+  color: #C89AFC;
+  transition: 0.4s;
+}
+#parter .parter--logo__glav img:hover {
+  scale: 1.1;
+  text-decoration-line: underline;
+}
+
+#programm {
+  padding-top: 100px;
+}
+#programm .programm--style3 .loader {
+  margin: 0 0 2em;
+  height: 100px;
+  width: 20%;
+  text-align: center;
+  padding: 1em;
+  margin: 0 auto 1em;
+  display: inline-block;
+  vertical-align: top;
+}
+#programm .programm--style3 svg path,
+#programm .programm--style3 svg rect {
+  fill: #DF5950;
+}
+#programm .programm h1 {
+  text-align: center;
+  padding-top: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 54px;
+  color: #FFFFFF;
+  font-size: 48px;
+}
+#programm .programm p {
+  text-align: center;
+  padding-top: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+  opacity: 0.4;
+}
+#programm .programm--lines {
+  display: flex;
+  justify-content: center;
+}
+#programm .programm--lines__line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#programm .programm--lines__line--text p {
+  margin-top: 50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+  opacity: 0.4;
+}
+#programm .programm--lines__line--text h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 54px;
+  color: #FFFFFF;
+  font-size: 18px;
+}
+#programm .programm--lines__line--liner {
+  width: 6px;
+  height: 677px;
+  background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+}
+#programm .programm--lines__line--lined p {
+  padding-top: 80px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+  opacity: 0.4;
+}
+#programm .programm--lines__line--lined h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 54px;
+  color: #FFFFFF;
+  font-size: 18px;
+}
+
+#vash {
+  padding-top: 100px;
+}
+#vash .vash--style3 {
+  display: flex;
+  align-items: center;
+}
+#vash .vash--style3 .loader {
+  margin: 0 0 2em;
+  height: 100px;
+  width: 20%;
+  text-align: center;
+  padding: 1em;
+  margin: 0 auto 1em;
+  display: inline-block;
+  vertical-align: top;
+}
+#vash .vash--style3 svg path,
+#vash .vash--style3 svg rect {
+  fill: #DF5950;
+}
+#vash .vash--style3 h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 54px;
+  color: #FFFFFF;
+  font-size: 38px;
+}
+#vash .vash--block {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#vash .vash--block__img h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 54px;
+  color: #FFFFFF;
+  font-size: 24px;
+  text-align: center;
+}
+#vash .vash--block__img p {
+  padding: 20px 0;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+  opacity: 0.4;
+}
+#vash .vash--block__img button {
+  padding: 10px 30px;
+  gap: 10px;
+  background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+  border-radius: 50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: white;
+  transition: 0.4s;
+}
+#vash .vash--block__img button:hover {
+  scale: 1.1;
+  background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+  color: black;
+}
+
+#footer {
+  padding-top: 100px;
+}
+#footer .footer h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 54px;
+  color: #FFFFFF;
+  font-size: 38px;
+  text-align: center;
+}
+#footer .footer p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+  opacity: 0.4;
+  padding: 20px;
+  text-align: center;
+}
+#footer .footer--input {
+  padding: 40px 0;
+}
+#footer .footer--input__hov {
+  display: flex;
+  justify-content: center;
+}
+#footer .footer--input__hov input {
+  width: 287px;
+  height: 53px;
+  border: 1px solid #B5B5B5;
+  background: #FFFFFF;
+  opacity: 0.25;
+  transition: 0.4s;
+}
+#footer .footer--input__hov input:hover {
+  background: #FFFFFF;
+}
+#footer .footer--input__hov button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 55px;
+  background: #FE773B;
+  border-radius: 2px;
+  transition: 0.4s;
+}
+#footer .footer--input__hov button:hover {
+  scale: 1.1;
+  background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+  color: black;
+}
+#footer .footer--icon {
+  display: flex;
+  justify-content: center;
+}
+#footer .footer--icon a {
+  color: #7C6AFA;
+  padding: 0 20px;
+  transition: 0.4s;
+}
+#footer .footer--icon a:hover {
+  scale: 1.2;
+}
+
+/*# sourceMappingURL=style.css.map */

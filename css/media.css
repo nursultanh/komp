@@ -1,0 +1,31 @@
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 420px) {
+  #zakas .zakas--logo__zarabotka--line {
+    width: 279px;
+  }
+  #zakas .zakas--logo {
+    height: 277px;
+  }
+  #hero .hero--logo h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+  }
+  #chem .chem--logo img {
+    width: 264px;
+  }
+}
+@media (max-width: 320px) {
+  #chem .chem--logo img {
+    width: 220px;
+  }
+  #chem .chem--text h1 {
+    font-size: 44px;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */
